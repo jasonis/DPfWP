@@ -21,10 +21,11 @@ def calculate_age(cy, my, ca):
     movie_age = cy - my
     your_age = ca - movie_age
     return your_age
-a = calculate_age(current_year, movie_year, current_age)
+a = calculate_age(current_year, movie_year, current_age) # this invokes the function and passes information into the function
 
-print "You were approximately " + str(a) + " years old when " + fav_movie + " was released"
+print "You were approximately " + str(a) + " years old when " + fav_movie + " was released" #concatenation
 
+#conditional to see if user was old enough to drive themselves to the movie
 if a < 16:
     print "If you saw it in the theater, your parents must have taken you!"
 else:
