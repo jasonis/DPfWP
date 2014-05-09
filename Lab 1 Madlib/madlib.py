@@ -39,8 +39,9 @@ def lifetime_views(cy, my, f):
     times_watched = movie_age * f
     return times_watched
 
-lv = lifetime_views(current_year, movie_year, frequency)
+lv = lifetime_views(current_year, movie_year, frequency)#invokes the function and passes in parameters
 
+#conditional
 if frequency < 1:
     print "But I though it was your favorite?!"
 elif frequency < 5:
