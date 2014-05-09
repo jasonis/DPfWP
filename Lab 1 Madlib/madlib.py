@@ -48,3 +48,8 @@ for i in foods:
     print i
 
 print "The tough part now is trying to decide!"
+
+pairings = dict()
+pairings = {"popcorn":"soda", "nachos":"beer", "candy":"water"}
+print "If you get thirsty eating all of this, I would recommend "  + str(pairings['popcorn']) + " with your popcorn, " + str(pairings['nachos']) + " with your nachos and " + str(pairings['candy']) + " with your candy."
+
