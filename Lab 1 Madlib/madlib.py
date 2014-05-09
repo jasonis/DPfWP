@@ -14,3 +14,8 @@ def calculate_age(cy, my, ca):
 a = calculate_age(current_year, movie_year, current_age)
 
 print "You were approximately " + str(a) + " years old when " + fav_movie + " was released"
+
+if a < 16:
+    print "If you saw it in the theater, your parents must have taken you!"
+else:
+    print "If you saw it in the theater, you could have driven yourself!"
