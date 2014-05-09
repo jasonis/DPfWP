@@ -2,6 +2,12 @@
 # 5.7.2014
 # Lab 1 Madlib
 
+"""
+Finding out about the users favorite movie,
+how much they watch it
+and what they like to snack on when they view it
+"""
+
 current_year = 2014
 current_age = response = input("How old are you currently?")
 fav_movie = response = raw_input("What is your favorite movie?")
