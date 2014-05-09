@@ -54,3 +54,8 @@ pairings = {"popcorn":"soda", "nachos":"beer", "candy":"water"}
 print "If you get thirsty eating all of this, I would recommend "  + str(pairings['popcorn']) + " with your popcorn, " + str(pairings['nachos']) + " with your nachos and " + str(pairings['candy']) + " with your candy."
 
 satisfaction = response = raw_input("Did you find this questionnaire enjoyable? ('yes' or 'no')")
+
+if satisfaction == "yes":
+    print "Thanks, I'm glad you liked it!"
+else:
+    print "Maybe if you tried it once more it would change your mind"
