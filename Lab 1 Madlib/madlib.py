@@ -29,3 +29,9 @@ def lifetime_views(cy, my, f):
 
 lv = lifetime_views(current_year, movie_year, frequency)
 
+if frequency < 1:
+    print "But I though it was your favorite?!"
+elif frequency < 5:
+    print "You definitely do like " + str(fav_movie) + " ! At that rate, you have seen it approximately " + str(lv) + " times in your life!"
+else:
+    print "Wow! You sure do love " + str(fav_movie) + " ! At that rate, you have seen it approximately " + str(lv) + " times in your life!"
