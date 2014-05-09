@@ -13,6 +13,10 @@ current_age = response = input("How old are you currently?") # input to find the
 fav_movie = response = raw_input("What is your favorite movie?") # input to find the users favorite movie
 movie_year = response = input("What year did it come out?") # input to find out what year that movie came out
 
+"""
+this function calculates how old the user was when their
+favorite movie was first released
+"""
 def calculate_age(cy, my, ca):
     movie_age = cy - my
     your_age = ca - movie_age
