@@ -26,3 +26,6 @@ def lifetime_views(cy, my, f):
     movie_age = cy - my
     times_watched = movie_age * f
     return times_watched
+
+lv = lifetime_views(current_year, movie_year, frequency)
+
