@@ -8,10 +8,10 @@ how much they watch it
 and what they like to snack on when they view it
 """
 
-current_year = 2014
-current_age = response = input("How old are you currently?")
-fav_movie = response = raw_input("What is your favorite movie?")
-movie_year = response = input("What year did it come out?")
+current_year = 2014 # variable showing the current year
+current_age = response = input("How old are you currently?") # input to find the users current age
+fav_movie = response = raw_input("What is your favorite movie?") # input to find the users favorite movie
+movie_year = response = input("What year did it come out?") # input to find out what year that movie came out
 
 def calculate_age(cy, my, ca):
     movie_age = cy - my
