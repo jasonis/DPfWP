@@ -9,9 +9,9 @@ and what they like to snack on when they view it
 """
 
 current_year = 2014 # variable showing the current year
-current_age = response = input("How old are you currently?") # input to find the users current age
-fav_movie = response = raw_input("What is your favorite movie?") # input to find the users favorite movie
-movie_year = response = input("What year did it come out?") # input to find out what year that movie came out
+current_age = input("How old are you currently?") # input to find the users current age
+fav_movie = raw_input("What is your favorite movie?") # input to find the users favorite movie
+movie_year = input("What year did it come out?") # input to find out what year that movie came out
 
 """
 this function calculates how old the user was when their
@@ -31,7 +31,7 @@ if a < 16:
 else:
     print "If you saw it in the theater, you could have driven yourself!"
 
-frequency = response = input("How many times did you watch " + str(fav_movie) + " in the last year?")
+frequency = input("How many times did you watch " + str(fav_movie) + " in the last year?")
 
 # this function calculates how many times the user may have possibly watched the movie
 def lifetime_views(cy, my, f):
@@ -51,7 +51,7 @@ else:
 
 foods = ["popcorn", "nachos", "candy"]# array
 
-your_foods = response = raw_input("A couple of common movie foods are " + str(foods[0]) + " and " + str(foods[2]) + ". " " What else do you like?")
+your_foods = raw_input("A couple of common movie foods are " + str(foods[0]) + " and " + str(foods[2]) + ". " " What else do you like?")
 
 foods.append(your_foods)#pushing users response into the array
 
@@ -68,7 +68,7 @@ pairings = dict()
 pairings = {"popcorn":"soda", "nachos":"beer", "candy":"water"}
 print "If you get thirsty eating all of this, I would recommend "  + str(pairings['popcorn']) + " with your popcorn, " + str(pairings['nachos']) + " with your nachos and " + str(pairings['candy']) + " with your candy."
 
-satisfaction = response = raw_input("Did you find this questionnaire enjoyable? ('yes' or 'no')")
+satisfaction = raw_input("Did you find this questionnaire enjoyable? ('yes' or 'no')")
 
 #conditional
 if satisfaction == "yes":
