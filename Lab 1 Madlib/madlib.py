@@ -33,6 +33,7 @@ else:
 
 frequency = response = input("How many times did you watch " + str(fav_movie) + " in the last year?")
 
+# this function calculates how many times the user may have possibly watched the movie
 def lifetime_views(cy, my, f):
     movie_age = cy - my
     times_watched = movie_age * f
