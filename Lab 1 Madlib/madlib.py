@@ -57,6 +57,7 @@ foods.append(your_foods)#pushing users response into the array
 
 print "Now we've got a pretty good selection to choose from!"
 
+#for loop
 for i in foods:
     print i
 
