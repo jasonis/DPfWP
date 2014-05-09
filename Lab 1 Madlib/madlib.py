@@ -19,3 +19,5 @@ if a < 16:
     print "If you saw it in the theater, your parents must have taken you!"
 else:
     print "If you saw it in the theater, you could have driven yourself!"
+
+frequency = response = input("How many times did you watch " + str(fav_movie) + " in the last year?")
