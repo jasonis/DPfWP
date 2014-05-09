@@ -21,3 +21,8 @@ else:
     print "If you saw it in the theater, you could have driven yourself!"
 
 frequency = response = input("How many times did you watch " + str(fav_movie) + " in the last year?")
+
+def lifetime_views(cy, my, f):
+    movie_age = cy - my
+    times_watched = movie_age * f
+    return times_watched
