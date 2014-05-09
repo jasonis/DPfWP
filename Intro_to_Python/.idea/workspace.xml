@@ -26,7 +26,7 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Documents/full_sail/year_3/semester_two/DPW/week1/practice python/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="48" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
+            <state line="13" column="0" selection-start="473" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="22" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1200">
+            <state line="2" column="22" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="madlib.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Lab 1 Madlib/madlib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="59" selection-start="247" selection-end="247" vertical-scroll-proportion="0.15" vertical-offset="0" max-vertical-offset="700">
+            <state line="13" column="56" selection-start="410" selection-end="410" vertical-scroll-proportion="0.27857143" vertical-offset="0" max-vertical-offset="700">
               <folding />
             </state>
           </provider>
@@ -260,13 +260,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practicemadlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/full_sail/year_3/semester_two/DPW/week1/practicemadlib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
@@ -313,14 +306,14 @@
     </entry>
     <entry file="file://$USER_HOME$/Documents/full_sail/year_3/semester_two/DPW/week1/practice python/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="48" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
+        <state line="13" column="0" selection-start="473" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Lab 1 Madlib/madlib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="59" selection-start="247" selection-end="247" vertical-scroll-proportion="0.15" vertical-offset="0" max-vertical-offset="700">
+        <state line="13" column="56" selection-start="410" selection-end="410" vertical-scroll-proportion="0.27857143" vertical-offset="0" max-vertical-offset="700">
           <folding />
         </state>
       </provider>
