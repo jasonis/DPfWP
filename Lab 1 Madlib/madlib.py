@@ -41,3 +41,5 @@ foods = ["popcorn", "nachos", "candy"]
 your_foods = response = raw_input("A couple of common movie foods are " + str(foods[0]) + " and " + str(foods[2]) + ". " " What else do you like?")
 
 foods.append(your_foods)
+
+print "Now we've got a pretty good selection to choose from!"
