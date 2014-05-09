@@ -70,6 +70,7 @@ print "If you get thirsty eating all of this, I would recommend "  + str(pairing
 
 satisfaction = response = raw_input("Did you find this questionnaire enjoyable? ('yes' or 'no')")
 
+#conditional
 if satisfaction == "yes":
     print "Thanks, I'm glad you liked it!"
 else:
