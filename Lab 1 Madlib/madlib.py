@@ -43,3 +43,6 @@ your_foods = response = raw_input("A couple of common movie foods are " + str(fo
 foods.append(your_foods)
 
 print "Now we've got a pretty good selection to choose from!"
+
+for i in foods:
+    print i
