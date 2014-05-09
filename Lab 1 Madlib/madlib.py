@@ -46,3 +46,5 @@ print "Now we've got a pretty good selection to choose from!"
 
 for i in foods:
     print i
+
+print "The tough part now is trying to decide!"
