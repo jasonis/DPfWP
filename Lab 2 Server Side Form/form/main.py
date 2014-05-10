@@ -18,6 +18,10 @@ class MainHandler(webapp2.RequestHandler):
         page_body = """
 
         page_close = """
+        </form>
+    </body>
+</html
+"""
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
