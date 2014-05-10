@@ -19,7 +19,8 @@ class MainHandler(webapp2.RequestHandler):
         <form method="GET">
             <label>First Name* </label><input type="text" name="firstname" />
             <label>Last Name* </label><input type="text" name="lastname" />
-            <label>Email* </label><input type="text" name="email" />"""
+            <label>Email* </label><input type="text" name="email" />
+            <label>Website URL </label><input type="text" name="weburl" />"""
         page_close = """
         </form>
     </body>
