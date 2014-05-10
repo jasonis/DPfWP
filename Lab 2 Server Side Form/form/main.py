@@ -22,30 +22,30 @@ class MainHandler(webapp2.RequestHandler):
             <div>
                 <ul>
                     <li>
-                        <label>First Name* </label>
+                        <label>First Name* </label><br>
                         <input type="text" name="firstname" />
                     </li>
                     <li>
-                        <label>Last Name* </label>
+                        <label>Last Name* </label><br>
                         <input type="text" name="lastname" />
                     </li>
                     <li>
-                        <label>Email* </label>
+                        <label>Email* </label><br>
                         <input type="text" name="email" />
                     </li>
                     <li>
-                        <label>Website URL </label>
+                        <label>Website URL </label><br>
                         <input type="text" name="weburl" />
                     </li>
                     <li>
-                        <label>How Can We Help&#63;</label>
-                        <textarea rows="15" cols="50" name="message" ></textarea>
+                        <label>How Can We Help&#63;</label><br>
+                        <textarea rows="15" cols="65" name="message" ></textarea>
+                    </li>
+                    <li id="checkbox">
+                        <input type="checkbox" name="alertsbox" value="albox"><label>Sign me up for email alerts</label>
                     </li>
                     <li>
-                        <input type="checkbox" name="alertsbox" value="albox">Sign me up for email alerts
-                    </li>
-                    <li>
-                        <input type="submit" value="Send" />
+                        <input id="send" type="submit" value="Send" />
                     </li>
                 </ul>
             </div>"""
