@@ -17,7 +17,8 @@ class MainHandler(webapp2.RequestHandler):
     <body>"""
         page_body = """
         <form method="GET">
-            <label>First Name* </label><input type="text" name="firstname" />"""
+            <label>First Name* </label><input type="text" name="firstname" />
+            <label>Last Name* </label><input type="text" name="lastname" />"""
         page_close = """
         </form>
     </body>
