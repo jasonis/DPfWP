@@ -15,6 +15,7 @@ class MainHandler(webapp2.RequestHandler): #declaring a class
         <html>
             <head>
                 <title>Simple Login</title>
+                <link href="css/styles.css" rel="stylesheet" type="text/css" />
             </head>
             <body>"""
         page_body = """
