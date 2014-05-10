@@ -31,6 +31,7 @@ class MainHandler(webapp2.RequestHandler):
         if self.request.GET[]:
             firstname = self.request.GET["firstname"]
             lastname = self.request.GET["lastname"]
+            email = self.request.GET["email"]
             self.response.write(page_head + firstname + page_body + page_close)
         else:
             self.response.write(page_head + firstname + page_body + page_close)
