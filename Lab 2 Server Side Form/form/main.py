@@ -20,7 +20,8 @@ class MainHandler(webapp2.RequestHandler):
             <label>First Name* </label><input type="text" name="firstname" />
             <label>Last Name* </label><input type="text" name="lastname" />
             <label>Email* </label><input type="text" name="email" />
-            <label>Website URL </label><input type="text" name="weburl" />"""
+            <label>Website URL </label><input type="text" name="weburl" />
+            <label>How Can We Help&#63;</label><textarea rows="15" cols="50" name="message" ></textarea>"""
         page_close = """
         </form>
     </body>
