@@ -16,7 +16,7 @@ class MainHandler(webapp2.RequestHandler):
     </head>
     <body>"""
         page_body = """
-
+        <form method="GET">
         page_close = """
         </form>
     </body>
