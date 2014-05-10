@@ -22,64 +22,7 @@
     <favorites_list name="Intro_to_Python" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Documents/full_sail/year_3/semester_two/DPW/week1/practice python/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="0" selection-start="2387" selection-end="2387" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="22" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1200">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="madlib.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Lab 1 Madlib/madlib.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="90" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.3231441" vertical-offset="273" max-vertical-offset="1245">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../classes-html/classes-html/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="22" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-              <folding>
-                <element signature="e#1#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../data-objects/data-objects/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="723" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pages.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../classes-html/classes-html/pages.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="18" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -148,11 +91,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Simple Login" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -182,18 +126,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="22" width="1408" height="797" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24857955" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24857955" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -224,88 +168,62 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Simple Login/simple-login/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="41" selection-start="96" selection-end="96" vertical-scroll-proportion="-0.9370861" vertical-offset="343" max-vertical-offset="645">
-          <folding />
-        </state>
+        <state line="4" column="41" selection-start="96" selection-end="96" vertical-scroll-proportion="-0.9370861" vertical-offset="343" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../classes/classes/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.60264903" vertical-offset="313" max-vertical-offset="795">
-          <folding />
-        </state>
+        <state line="33" column="0" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.60264903" vertical-offset="313" max-vertical-offset="795" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../classes-html/classes-html/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="302">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="302" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../classes-html/classes-html/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="35" selection-end="35" vertical-scroll-proportion="0.022222223" vertical-offset="0" max-vertical-offset="675">
-          <folding />
-        </state>
+        <state line="1" column="28" selection-start="35" selection-end="35" vertical-scroll-proportion="0.022222223" vertical-offset="0" max-vertical-offset="675" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/full_sail/year_3/semester_two/DPW/week1/practicemadlib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/full_sail/year_3/semester_two/DPW/week1/practice python/madlib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../classes-html/classes-html/pages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="18" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="73" max-vertical-offset="435">
-          <folding />
-        </state>
+        <state line="23" column="18" selection-start="549" selection-end="549" vertical-scroll-proportion="0.49285713" vertical-offset="0" max-vertical-offset="700" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../data-objects/data-objects/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="723" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-          <folding />
-        </state>
+        <state line="29" column="0" selection-start="723" selection-end="737" vertical-scroll-proportion="0.62142855" vertical-offset="0" max-vertical-offset="700" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../classes-html/classes-html/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <folding>
-            <element signature="e#1#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/full_sail/year_3/semester_two/DPW/week1/practice python/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="2387" selection-end="2387" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1125">
-          <folding />
-        </state>
+        <state line="2" column="22" selection-start="38" selection-end="38" vertical-scroll-proportion="0.042857144" vertical-offset="0" max-vertical-offset="700" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Lab 1 Madlib/madlib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="90" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.3231441" vertical-offset="273" max-vertical-offset="1245">
-          <folding />
-        </state>
+        <state line="33" column="90" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.3231441" vertical-offset="273" max-vertical-offset="1245" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="22" selection-start="46" selection-end="46" vertical-scroll-proportion="-0.021428572" vertical-offset="45" max-vertical-offset="1200" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/full_sail/year_3/semester_two/DPW/week1/practice python/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="2387" selection-end="2387" vertical-scroll-proportion="1.5065502" vertical-offset="0" max-vertical-offset="1125" />
       </provider>
     </entry>
   </component>
