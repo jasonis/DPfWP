@@ -28,6 +28,11 @@ class MainHandler(webapp2.RequestHandler):
     </body>
 </html
 """
+        if self.request.GET[]:
+            firstname = self.request.GET["firstname"]
+            self.response.write(page_head + firstname + page_body + page_close)
+        else:
+            self.response.write(page_head + firstname + page_body + page_close)
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
