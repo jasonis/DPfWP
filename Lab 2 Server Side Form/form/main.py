@@ -4,65 +4,30 @@
 # DPW
 # Simple Form
 import webapp2
+from form import Page
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        page_head = """
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>Simple Form</title>
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
-    </head>
-    <body>"""
-        page_body = """
-        <h1>Want to learn more about us&#63;<h1>
-        <p>Sign up today and find out how we help businesses and individuals make their dream websites a reality<p>
-        <form method="GET">
-            <div>
-                <ul>
-                    <li>
-                        <label>First Name* </label><br>
-                        <input type="text" name="firstname" />
-                    </li>
-                    <li>
-                        <label>Last Name* </label><br>
-                        <input type="text" name="lastname" />
-                    </li>
-                    <li>
-                        <label>Email* </label><br>
-                        <input type="text" name="email" />
-                    </li>
-                    <li>
-                        <label>Website URL </label><br>
-                        <input type="text" name="weburl" />
-                    </li>
-                    <li>
-                        <label>How Can We Help&#63;</label><br>
-                        <textarea rows="15" cols="65" name="message" ></textarea>
-                    </li>
-                    <li id="checkbox">
-                        <input type="checkbox" name="alertsbox" value="albox"><label>Sign me up for email alerts</label>
-                    </li>
-                    <li>
-                        <input id="send" type="submit" value="Send" />
-                    </li>
-                </ul>
-            </div>"""
-        page_close = """
-        </form>
-    </body>
-</html
-"""
+        p = Page()
+
         if self.request.GET:
             firstname = self.request.GET["firstname"]
             lastname = self.request.GET["lastname"]
             email = self.request.GET["email"]
             weburl = self.request.GET["weburl"]
             message = self.request.GET["message"]
-            self.response.write(page_head + firstname + " " + lastname + " " + email + " " + weburl + " " + message + " " + page_body + page_close)
+            results = """
+            <h1>Thanks for requesting more info&excl;</h1>
+            <p>First Name: {firstname}</p>
+            <p>Last Name: {lastname}</p>
+            <p>Email: {email}</p>
+            <p>Current Web URL: {weburl}</p>
+            <p>Message: {message}</p>
+            """
+            results = results.format(**locals())
+            self.response.write(p.page_head + results + p.page_close)
         else:
-            self.response.write(page_head + page_body + page_close)
+            self.response.write(p.page_head + p.page_body + p.page_close)
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
