@@ -79,6 +79,16 @@ class MainHandler(webapp2.RequestHandler):
         o.water_evening = 3
         o.total_water()
 
+        family = [j, k, i, e, c, o]
+
+class Family_Member(object):
+    def __init__(self):
+        self.name = ""
+        self.status = ""
+        self.water_morning = 0
+        self.water_afternoon = 0
+        self.water_evening = 0
+        self.__total_water = 0
 
 
 app = webapp2.WSGIApplication([
