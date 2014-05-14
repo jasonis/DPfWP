@@ -68,7 +68,13 @@ class MainHandler(webapp2.RequestHandler):
         c.water_evening = 2
         c.total_water()
 
-        
+        o = Family_Member()
+        o.name = "Otis"
+        c.status = "dog2"
+        o.water_morning = 4
+        o.water_afternoon = 4
+        o.water_evening = 3
+        o.total_water()
 
 
 
