@@ -23,13 +23,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="19" selection-start="2004" selection-end="2004" vertical-scroll-proportion="1.4928571" vertical-offset="200" max-vertical-offset="1530">
+            <state line="7" column="18" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
               <folding>
                 <element signature="e#1#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="8" selection-start="47" selection-end="47" vertical-scroll-proportion="0.06428572" vertical-offset="0" max-vertical-offset="700">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -45,6 +54,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/page.py" />
       </list>
     </option>
   </component>
@@ -285,10 +295,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="19" selection-start="2004" selection-end="2004" vertical-scroll-proportion="1.4928571" vertical-offset="200" max-vertical-offset="1530">
+        <state line="7" column="18" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
           <folding>
             <element signature="e#1#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="8" selection-start="47" selection-end="47" vertical-scroll-proportion="0.06428572" vertical-offset="0" max-vertical-offset="700">
+          <folding />
         </state>
       </provider>
     </entry>
