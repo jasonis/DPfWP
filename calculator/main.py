@@ -60,6 +60,16 @@ class MainHandler(webapp2.RequestHandler):
         e.water_evening = 20
         e.total_water()
 
+        c = Family_Member()
+        c.name = "Chewie"
+        c.status = "dog1"
+        c.water_morning = 3
+        c.water_afternoon = 4
+        c.water_evening = 2
+        c.total_water()
+
+        
+
 
 
 app = webapp2.WSGIApplication([
