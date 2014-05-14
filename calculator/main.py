@@ -28,6 +28,15 @@ class MainHandler(webapp2.RequestHandler):
     </body>
 </html>"""
 
+        j = Family_Member()
+        j.name = "Jason"
+        j.status = "father"
+        j.water_morning = 50
+        j.water_afternoon = 30
+        j.water_evening = 30
+        j.total_water()
+
+
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
