@@ -1,7 +1,7 @@
 
 class Page():
     def __init__(self):
-        page_head = """
+        self.page_head = """
 <!DOCTYPE HTML>
 <html>
     <head>
@@ -9,7 +9,7 @@ class Page():
         <link href="css/style.css" rel="stylesheet" type"text/css" />
     </head>
     <body>"""
-        page_body = """
+        self.page_body = """
         <h1>Family Water Consumption</h1>
         <div>
             <ul>
@@ -22,6 +22,15 @@ class Page():
             </ul>
         </div>
 """
-        page_close = """
+        self.page_close = """
     </body>
 </html>"""
+
+    def head(self):
+        return self.page_head
+
+    def body(self):
+        return self.page_body
+
+    def close(self):
+        return self.page_close
