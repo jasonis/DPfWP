@@ -24,6 +24,9 @@ class MainHandler(webapp2.RequestHandler):
             </ul>
         </div>
 """
+        page_close = """
+    </body>
+</html>"""
 
 
 app = webapp2.WSGIApplication([
