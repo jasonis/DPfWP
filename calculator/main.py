@@ -1,8 +1,11 @@
 
 import webapp2
 
+from p import Page
+
 class MainHandler(webapp2.RequestHandler):
     def get(self):
+        p = Page()
         page_head = """
 <!DOCTYPE HTML>
 <html>
@@ -15,12 +18,12 @@ class MainHandler(webapp2.RequestHandler):
         <h1>Family Water Consumption</h1>
         <div>
             <ul>
-                <li>Jason</li>
-                <li>Katie</li>
-                <li>Isaac</li>
-                <li>Ella</li>
-                <li>Chewie</li>
-                <li>Otis</li>
+                <li><button>Jason</button></li>
+                <li><button>Katie</button></li>
+                <li><button>Isaac</button></li>
+                <li><button>Ella</button></li>
+                <li><button>Chewie</button></li>
+                <li><button>Otis</button></li>
             </ul>
         </div>
 """
