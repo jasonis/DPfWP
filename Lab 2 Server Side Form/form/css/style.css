@@ -3,6 +3,7 @@ body{
     background-color: #334145;
     color: #fbfaf9;
     font-family: "Georgia";
+    margin-bottom: -70px;
 }
 
 h1 {
@@ -67,4 +68,21 @@ form ul li input {
 
 #send:hover {
     background-color: #495d63;
+}
+
+footer {
+    background-color: #495d63;
+    width: 100%;
+    height: 150px;
+}
+
+footer ul {
+    text-align: center;
+    margin-left: -70px;
+}
+
+footer ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 0 3px 0 3px;
 }

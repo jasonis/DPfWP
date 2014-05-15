@@ -48,6 +48,20 @@ class Page():
         self.page_close = """
         </form>
     </body>
+    <footer>
+        <div>
+            <ul>
+                <li>
+                    <h3>Call Us</h3>
+                    <p>1.888.555.5555</p>
+                </li>
+                <li>
+                    <h3>Email Us</h3>
+                    <p>mail@website.com</p>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </html
 """
 
