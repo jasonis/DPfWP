@@ -27,6 +27,7 @@ class MainHandler(webapp2.RequestHandler):
             """
             results = results.format(**locals())
             self.response.write(p.page_head + results + p.page_close)
+        #If the button isn't pressed, this will display the blank form
         else:
             self.response.write(p.page_head + p.page_body + p.page_close)
 
