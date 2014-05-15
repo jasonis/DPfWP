@@ -3,7 +3,7 @@ body{
     background-color: #334145;
     color: #fbfaf9;
     font-family: "Georgia";
-    margin-bottom: -70px;
+    margin-bottom: -100px;
 }
 
 h1 {
@@ -84,5 +84,5 @@ footer ul {
 footer ul li {
     display: inline-block;
     text-align: center;
-    padding: 0 3px 0 3px;
+    padding: 0 7px 0 7px;
 }
