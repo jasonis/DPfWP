@@ -10,6 +10,7 @@ class MainHandler(webapp2.RequestHandler):
     def get(self):
         p = Page()
 
+        #conditional that will display the results of the form when the send button is pressed
         if self.request.GET:
             firstname = self.request.GET["firstname"]
             lastname = self.request.GET["lastname"]
