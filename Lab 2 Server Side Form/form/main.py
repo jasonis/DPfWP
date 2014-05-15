@@ -8,7 +8,7 @@ from form import Page
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        p = Page()
+        p = Page()#creates an instance of the class Page
 
         #conditional that will display the results of the form when the send button is pressed
         if self.request.GET:
