@@ -105,6 +105,10 @@ class FamilyMember(object):
         self.__water_morning = new_water_afternoon
 
     @property
+    def water_evening(self):
+        return self.__water_evening
+
+    @property
     def daily_water(self):
         return self.__daily_water
 
