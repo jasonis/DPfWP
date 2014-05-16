@@ -1,4 +1,7 @@
-
+# Jason Slocum
+# DPW
+# 5.15.14
+# encapsulated calculator
 import webapp2
 
 from page import Page

@@ -1,3 +1,7 @@
+# Jason Slocum
+# DPW
+# 5.15.14
+# encapsulated calculator
 
 class Page():
     def __init__(self):
