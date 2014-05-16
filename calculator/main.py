@@ -116,6 +116,10 @@ class FamilyMember(object):
     def total(self):
         return self.__total
 
+    @total.setter
+    def total(self, new_total):
+        self.__total = new_total
+
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
