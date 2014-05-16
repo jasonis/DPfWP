@@ -52,7 +52,7 @@ class MainHandler(webapp2.RequestHandler):
         ot.water_afternoon = 4
         ot.water_evening = 3
 
-        family = [ji, ka, ij, ea, ch, ot]
+        members = [ji, ka, ij, ea, ch, ot]
 
         self.response.write(p.header())
         self.response.write(p.form())
