@@ -55,9 +55,10 @@ class MainHandler(webapp2.RequestHandler):
         self.response.write(p.form())
 
         if self.request.GET:
-            total = (int(self.request.GET[family]))-1
-            self.response.write(self.total_water(family[total]))
-            self.response.write(p.footer())
+            member = (int(self.request.GET['member']))-1
+            print member
+            self.response.write(self.html(members[member]))
+        self.response.write(p.footer())
     def display(self,obj):
 
         total = obj.water_morning + obj.water_afternoon + obj.water_evening
