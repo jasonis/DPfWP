@@ -89,6 +89,10 @@ class FamilyMember(object):
         self.__total = 0
 
     @property
+    def water_morning(self):
+        return self.__water_morning
+
+    @property
     def daily_water(self):
         return self.__daily_water
 
