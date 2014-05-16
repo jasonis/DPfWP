@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="8" selection-start="1336" selection-end="1369" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
+            <state line="28" column="29" selection-start="645" selection-end="645" vertical-scroll-proportion="0.572843" vertical-offset="15" max-vertical-offset="1530">
               <folding>
                 <element signature="e#1#15#0" expanded="true" />
               </folding>
@@ -34,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="page.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="28" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.7348703" vertical-offset="0" max-vertical-offset="705">
+            <state line="34" column="28" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -53,8 +53,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/page.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -293,19 +293,19 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="8" selection-start="1336" selection-end="1369" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
-          <folding>
-            <element signature="e#1#15#0" expanded="true" />
-          </folding>
+        <state line="34" column="28" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="28" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.7348703" vertical-offset="0" max-vertical-offset="705">
-          <folding />
+        <state line="28" column="29" selection-start="645" selection-end="645" vertical-scroll-proportion="0.572843" vertical-offset="15" max-vertical-offset="1530">
+          <folding>
+            <element signature="e#1#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

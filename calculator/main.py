@@ -7,29 +7,26 @@ class MainHandler(webapp2.RequestHandler):
     def get(self):
         p = Page()
 
-        ji = Family_Member()
+        ji = FamilyMember()
         ji.name = "Jason"
         ji.status = "father"
         ji.water_morning = 50
         ji.water_afternoon = 30
         ji.water_evening = 30
-        #ji.total_water()
 
-        ka = Family_Member()
+        ka = FamilyMember()
         ka.name = "Katie"
         ka.status = "mother"
         ka.water_morning = 30
         ka.water_afternoon = 30
         ka.water_evening = 20
-        #ka.total_water()
 
-        ij = Family_Member()
+        ij = FamilyMember()
         ij.name = "Isaac"
         ij.status = "son"
         ij.water_morning = 20
         ij.water_afternoon = 20
         ij.water_evening = 40
-        #ij.total_water()
 
         ea = Family_Member()
         ea.name = "Ella"
