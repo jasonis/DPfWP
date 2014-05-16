@@ -1,0 +1,56 @@
+/* css */
+
+html {
+    margin: 0 auto;
+}
+
+body {
+    background-color: #ececec;
+    margin: -20px auto 0;
+}
+
+header {
+    color: #495d63;
+    font-family: 'Pompiere', cursive;
+    background-color: #2e2e2e;
+    padding: 5px;
+}
+
+header h1 {
+    padding-top: 7px;
+    margin-left: 200px;
+}
+
+header h1:hover {
+    color: #ececec;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #4e4e4e;
+    text-align: center;
+}
+
+form {
+    margin-left: 580px;
+    margin-top: 20px;
+}
+
+form a {
+    text-decoration: none;
+    text-align: center;
+    border: solid 1px #495d63;
+    color: #ececec;
+    background-color: #495d63;
+    border-radius: 5px 0 5px 0;
+}
+
+form a:hover {
+    background-color: #ececec;
+    color: #495d63;
+}
