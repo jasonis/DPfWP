@@ -1,3 +1,8 @@
+# Jason Slocum
+# 5.9.2014
+# DPW
+# Simple Form
+
 class Page():
     def __init__(self):
         self.css = "css/style.css"

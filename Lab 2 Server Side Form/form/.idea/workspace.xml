@@ -26,25 +26,25 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="19" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+            <state line="1" column="0" selection-start="1" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="form.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/form.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="21" selection-start="2314" selection-end="2314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+            <state line="3" column="13" selection-start="45" selection-end="45" vertical-scroll-proportion="0.067567565" vertical-offset="0" max-vertical-offset="1275">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="14" selection-start="1321" selection-end="1321" vertical-scroll-proportion="2.0124805" vertical-offset="0" max-vertical-offset="1395">
+            <state line="86" column="14" selection-start="1321" selection-end="1321" vertical-scroll-proportion="-51.6" vertical-offset="0" max-vertical-offset="1395">
               <folding />
             </state>
           </provider>
@@ -61,8 +61,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/form.py" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/form.py" />
       </list>
     </option>
   </component>
@@ -329,23 +329,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="14" selection-start="1321" selection-end="1321" vertical-scroll-proportion="-51.6" vertical-offset="0" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="615">
+        <state line="1" column="0" selection-start="1" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/form.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="21" selection-start="2314" selection-end="2314" vertical-scroll-proportion="0.0" vertical-offset="294" max-vertical-offset="1200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="14" selection-start="1321" selection-end="1321" vertical-scroll-proportion="2.0124805" vertical-offset="0" max-vertical-offset="1395">
+        <state line="3" column="13" selection-start="45" selection-end="45" vertical-scroll-proportion="0.067567565" vertical-offset="0" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
