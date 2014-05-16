@@ -51,21 +51,30 @@ class MainHandler(webapp2.RequestHandler):
 
         family = [ji, ka, ij, ea, ch, ot]
 
-        self.response.write(p.head())
-        self.response.write(p.body())
+        self.response.write(p.header())
+        self.response.write(p.form())
 
         if self.request.GET:
             total = (int(self.request.GET[family]))-1
             self.response.write(self.total_water(family[total]))
-            self.response.write(p.close())
-    def total_water(self, object):
-        self.__water_consumed = self.water_morning + self.water_afternoon + self.water_evening
-        results = """
-            <h1>This is how many ounces of water you consumed today!</h1>
-            <p></p>
-            """
-        results = results.format(**locals())
-        return results
+            self.response.write(p.footer())
+    def display(self,obj):
+
+        total = obj.water_morning + obj.water_afternoon + obj.water_evening
+
+        result = '''
+        <div class = 'container' id='result'>
+            <h1>{obj.name}</h1>
+            <ul>
+                <li>Name: ${obj.status}</li>
+                <li>Water Drank in the Morning: {obj.water_morning}</li>
+                <li>Water Drank in the Afternoon: {obj.water_afternoon}</li>
+                <li>Water Drank in the Evening: {obj.water_evening}</li>
+                <li id='total'>Daily Total: {total} ounces of water</li>
+            </ul>
+        </div>'''
+        result = result.format(**locals())
+        return result
 
 
 
@@ -73,9 +82,9 @@ class Family_Member(object):
     def __init__(self):
         self.name = ""
         self.status = ""
-        self.water_morning = 0
-        self.water_afternoon = 0
-        self.water_evening = 0
+        self.__water_morning = 0
+        self.__water_afternoon = 0
+        self.__water_evening = 0
         self.__daily_water = 0
 
     @property
