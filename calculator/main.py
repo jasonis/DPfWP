@@ -108,9 +108,9 @@ class FamilyMember(object):
     def water_evening(self):
         return self.__water_evening
 
-    @property
-    def daily_water(self):
-        return self.__daily_water
+    @water_evening.setter
+    def water_morning(self, new_water_evening):
+        self.__water_evening = new_water_evening
 
     @daily_water.setter
     def daily_water(self, new_total):
