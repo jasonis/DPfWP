@@ -28,32 +28,28 @@ class MainHandler(webapp2.RequestHandler):
         ij.water_afternoon = 20
         ij.water_evening = 40
 
-        ea = Family_Member()
+        ea = FamilyMember()
         ea.name = "Ella"
         ea.status = "daughter"
         ea.water_morning = 10
         ea.water_afternoon = 20
         ea.water_evening = 20
-        #ea.total_water()
 
-        ch = Family_Member()
+        ch = FamilyMember()
         ch.name = "Chewie"
         ch.status = "dog1"
         ch.water_morning = 3
         ch.water_afternoon = 4
         ch.water_evening = 2
-        #ch.total_water()
 
-        ot = Family_Member()
+        ot = FamilyMember()
         ot.name = "Otis"
         ot.status = "dog2"
         ot.water_morning = 4
         ot.water_afternoon = 4
         ot.water_evening = 3
-        #ot.total_water()
 
         family = [ji, ka, ij, ea, ch, ot]
-        print family
 
         self.response.write(p.head())
         self.response.write(p.body())
