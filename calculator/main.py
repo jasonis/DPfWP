@@ -79,14 +79,14 @@ class MainHandler(webapp2.RequestHandler):
 
 
 
-class Family_Member(object):
+class FamilyMember(object):
     def __init__(self):
         self.name = ""
         self.status = ""
         self.__water_morning = 0
         self.__water_afternoon = 0
         self.__water_evening = 0
-        self.__daily_water = 0
+        self.__total = 0
 
     @property
     def daily_water(self):
