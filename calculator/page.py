@@ -1,15 +1,20 @@
 
 class Page():
     def __init__(self):
-        self.page_head = """
+        self.__header = """
 <!DOCTYPE HTML>
 <html>
     <head>
         <title>Family Water Consumption</title>
         <link href="css/style.css" rel="stylesheet" type"text/css" />
+        <link href='http://fonts.googleapis.com/css?family=Pompiere' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200' rel='stylesheet' type='text/css'>
     </head>
+    <header>
+        <h1>Hydration.com</h1>
+    </header>
     <body>"""
-        self.page_body = """
+        self.__form = """
         <h1>Family Water Consumption</h1>
         <div>
             <form method="GET" >
@@ -22,15 +27,15 @@ class Page():
             </form>
         </div>
 """
-        self.page_close = """
+        self.__footer = """
     </body>
 </html>"""
 
-    def head(self):
-        return self.page_head
+    def header(self):
+        return self.__header
 
-    def body(self):
-        return self.page_body
+    def form(self):
+        return self.__form
 
-    def close(self):
-        return self.page_close
+    def footer(self):
+        return self.__footer

@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="8" selection-start="1336" selection-end="1369" vertical-scroll-proportion="-0.5811138" vertical-offset="1095" max-vertical-offset="1575">
+            <state line="57" column="8" selection-start="1336" selection-end="1369" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
               <folding>
                 <element signature="e#1#15#0" expanded="true" />
               </folding>
@@ -34,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="page.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="41" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+            <state line="34" column="28" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.7348703" vertical-offset="0" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -59,10 +59,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
+    <option name="x" value="32" />
     <option name="y" value="22" />
     <option name="width" value="1226" />
-    <option name="height" value="510" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -254,7 +254,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="22" width="1226" height="510" extended-state="0" />
+    <frame x="32" y="22" width="1226" height="804" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -293,19 +293,19 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="41" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="8" selection-start="1336" selection-end="1369" vertical-scroll-proportion="-0.5811138" vertical-offset="1095" max-vertical-offset="1575">
+        <state line="57" column="8" selection-start="1336" selection-end="1369" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
           <folding>
             <element signature="e#1#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="28" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.7348703" vertical-offset="0" max-vertical-offset="705">
+          <folding />
         </state>
       </provider>
     </entry>
