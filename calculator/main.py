@@ -112,9 +112,9 @@ class FamilyMember(object):
     def water_morning(self, new_water_evening):
         self.__water_evening = new_water_evening
 
-    @daily_water.setter
-    def daily_water(self, new_total):
-        self.daily_water = new_total
+    @property
+    def total(self):
+        return self.__total
 
 
 app = webapp2.WSGIApplication([
