@@ -112,7 +112,7 @@ class FamilyMember(object):
         return self.__water_evening
 
     @water_evening.setter
-    def water_morning(self, new_water_evening):
+    def water_evening(self, new_water_evening):
         self.__water_evening = new_water_evening
 
     @property
