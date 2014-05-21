@@ -25,10 +25,15 @@ class MainHandler(webapp2.RequestHandler):
             #parse the xml
             xmldoc = minidom.parse(result)
             self.response.write(xmldoc.getElementsByTagName('title')[2].firstChild.nodeValue)
-
+            self.content = ''
             list = xmldoc.getElementsByTagName('yweather:forecast')
             for item in list:
-                print item.attributes['day'].value
+                self.content += item.attributes['day'].value
+                self.content += " HIGH: " + item.attributes['high'].value
+                self.content += " LOW: " + item.attributes['low'].value
+                self.content += " CONDITION: " + item.attributes['text'].value
+                self.content += '<img src="images/' + item.attributes['code'].value + '.png" width="30" />'
+                self.content += '</br>'
 
             self.response.write(self.content )
 
