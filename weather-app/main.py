@@ -9,20 +9,28 @@ class MainHandler(webapp2.RequestHandler):
         p.inputs = [['zip', 'text', 'Zip Code'], ['Submit', 'submit']]
         self.response.write(p.print_out())
 
-        #get info from the api
-        url = "http://xml.weather.yahoo.com/forecastrss?p=53538"
-        #assemble the request
-        request = urllib2.Request(url)
-        #use urllib2 to create an object to get the url
-        opener = urllib2.build_opener()
-        #use the url to get a result - request info from the api
-        result = opener.open(request)
+        if self.request.GET:
+            zip = self.request.GET['zip']
+            #get info from the api
+            url = "http://xml.weather.yahoo.com/forecastrss?p=" + zip
+            #assemble the request
+            request = urllib2.Request(url)
+            #use urllib2 to create an object to get the url
+            opener = urllib2.build_opener()
+            #use the url to get a result - request info from the api
+            result = opener.open(request)
 
-        print result
+            print result
 
-        #parse the xml
-        xmldoc = minidom.parse(result)
-        self.response.write(xmldoc.getElementsByTagName('title')[0].firstChild.nodeValue)
+            #parse the xml
+            xmldoc = minidom.parse(result)
+            self.response.write(xmldoc.getElementsByTagName('title')[2].firstChild.nodeValue)
+
+            list = xmldoc.getElementsByTagName('yweather:forecast')
+            for item in list:
+                print item.attributes['day'].value
+
+            self.response.write(self.content )
 
 
 class Page(object):

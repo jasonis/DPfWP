@@ -27,9 +27,7 @@
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="10" column="23" selection-start="305" selection-end="305" vertical-scroll-proportion="0.24368231" vertical-offset="15" max-vertical-offset="930">
-              <folding>
-                <marker date="1400636704000" expanded="true" signature="908:1198" placeholder="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -165,18 +163,14 @@
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="71" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0" vertical-offset="376" max-vertical-offset="930">
-          <folding>
-            <marker date="1400636704000" expanded="true" signature="908:1198" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="23" selection-start="305" selection-end="305" vertical-scroll-proportion="0.24368231" vertical-offset="15" max-vertical-offset="930">
-          <folding>
-            <marker date="1400636704000" expanded="true" signature="908:1198" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
