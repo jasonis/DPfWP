@@ -33,3 +33,18 @@ h1 {
     color: #2e2e2e;
     margin-left: 49px;
 }
+
+
+form {
+    text-align: center;
+    text-decoration: none;
+    color: #a14d48;
+    font-size: 35px;
+}
+
+.cta {
+    font: 'Helevetica Neue', sans-serif;
+    font-size: 35px;
+    line-height: 5px;
+    color: #ececec;
+}
