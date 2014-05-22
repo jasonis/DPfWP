@@ -16,6 +16,8 @@ class MainHandler(webapp2.RequestHandler):
         raccoon = Procyon()
         raccoon.name = 'Raccoon'
 
+        animals = [dog, horse, raccoon]
+
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
 ], debug=True)
