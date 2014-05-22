@@ -105,7 +105,7 @@ class Canis(Canidae):
     def __init__(self):
         Canidae.__init__(self)
         self._gen = 'Canis'
-        self._url = ''
+        self._url = 'images/dog/jpg'
         self._avg_life = '12.8 years'
         self._hab = 'In your home'
         self._geo = 'Worldwide'
@@ -129,7 +129,7 @@ class Equus(Equidae):
     def __init__(self):
         Equidae.__init__(self)
         self._gen = 'Equus'
-        self._url = ''
+        self._url = 'images/horse/jpg'
         self._avg_life = '28 years'
         self._hab = 'Farms and Natural Prairies'
         self._geo = 'Non-arctic regions worldwide'
@@ -153,7 +153,7 @@ class Procyon(Procyonidae):
     def __init__(self):
         Procyonidae.__init__(self)
         self._gen = 'Procyonidae'
-        self._url = 'http://en.wikipedia.org/wiki/File:Procyon_lotor_%28Common_raccoon%29.jpg'
+        self._url = 'images/raccoon.jpg'
         self._avg_life = '2-3 years'
         self._hab = 'Tree cavities and burrows'
         self._geo = 'Native to N. America and now also northern Europe'
