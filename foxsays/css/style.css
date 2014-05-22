@@ -14,3 +14,22 @@ header {
     width: 100%;
     z-index: 100000;
 }
+
+header div {
+    float: right;
+    margin-top: -75px;
+    margin-right: 50px;
+}
+
+h1 {
+    font-family: 'Griffy', cursive;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+#h1bg {
+    font-size: 35px;
+    margin-top: -72px;
+    color: #2e2e2e;
+    margin-left: 49px;
+}
