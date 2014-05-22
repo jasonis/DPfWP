@@ -63,3 +63,24 @@ form a:hover {
 form a:active {
     color: #ffffff;
 }
+
+#animal_area {
+    background-color: #ececec;
+    color: #2e2e2e;
+    width: 40%;
+    box-shadow: 2px 2px 2px #2e2e2e;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#animal_area h1, h2, h3, p {
+    text-align: center;
+}
+
+#animal_area p {
+    color: #a14d48;
+}
+
+img {
+    margin: 50px 35px;
+}
