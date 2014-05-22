@@ -139,6 +139,30 @@ class Equus(Equidae):
     def gen(self):
         return self._genus
 
+# --------- Racoon Object ---------
+class Procyonidae(Carnivora):
+    def __init__(self):
+        Carnivora.__init__(self)
+        self._fam = 'Procyonidae'
+
+    @property
+    def fam(self):
+        return self._fam
+
+class Procyon(Procyonidae):
+    def __init__(self):
+        Procyonidae.__init__(self)
+        self._gen = 'Procyonidae'
+        self._url = 'http://en.wikipedia.org/wiki/File:Procyon_lotor_%28Common_raccoon%29.jpg'
+        self._avg_life = '2-3 years'
+        self._hab = 'Tree cavities and burrows'
+        self._geo = 'Native to N. America and now also northern Europe'
+        self._say = 'Chitter Chitter'
+
+    @property
+    def gen(self):
+        return self._genus
+
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
 ], debug=True)
