@@ -82,6 +82,15 @@ class Perissodactlya(Mammalia):
     def order(self):
         return self._order
 
+class Procyonidae(Mammalia):
+    def __init__(self):
+        Mammalia.__init__(self)
+        self._order = 'Procyonidae'
+
+    @property
+    def order(self):
+        return self._order
+
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
 ], debug=True)
