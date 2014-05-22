@@ -26,7 +26,7 @@
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="35" selection-start="2227" selection-end="2227" vertical-scroll-proportion="-0.8140794" vertical-offset="2056" max-vertical-offset="2610">
+            <state line="131" column="34" selection-start="2778" selection-end="2778" vertical-scroll-proportion="0.05234657" vertical-offset="1936" max-vertical-offset="2610">
               <folding>
                 <element signature="e#1#15#0" expanded="true" />
               </folding>
@@ -317,13 +317,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="12" selection-start="288" selection-end="288" vertical-scroll-proportion="-10.2" vertical-offset="0" max-vertical-offset="1365">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="4" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
@@ -331,9 +324,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="12" selection-start="288" selection-end="288" vertical-scroll-proportion="-10.2" vertical-offset="0" max-vertical-offset="1365">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="35" selection-start="2227" selection-end="2227" vertical-scroll-proportion="-0.8140794" vertical-offset="2056" max-vertical-offset="2610">
+        <state line="131" column="34" selection-start="2778" selection-end="2778" vertical-scroll-proportion="0.05234657" vertical-offset="1936" max-vertical-offset="2610">
           <folding>
             <element signature="e#1#15#0" expanded="true" />
           </folding>

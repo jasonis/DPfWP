@@ -105,7 +105,7 @@ class Canis(Canidae):
     def __init__(self):
         Canidae.__init__(self)
         self._gen = 'Canis'
-        self._url = 'images/dog/jpg'
+        self._url = 'images/dog.jpg'
         self._avg_life = '12.8 years'
         self._hab = 'In your home'
         self._geo = 'Worldwide'
@@ -129,7 +129,7 @@ class Equus(Equidae):
     def __init__(self):
         Equidae.__init__(self)
         self._gen = 'Equus'
-        self._url = 'images/horse/jpg'
+        self._url = 'images/horse.jpg'
         self._avg_life = '28 years'
         self._hab = 'Farms and Natural Prairies'
         self._geo = 'Non-arctic regions worldwide'
