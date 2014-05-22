@@ -3,3 +3,14 @@ body {
     color: #ececec;
     margin-top: 120px;
 }
+
+header {
+    background-color: #222222;
+    box-shadow: 0 2px 2px #222;
+    color: #ececec;
+    position: fixed;
+    top: 0px;
+    margin-left: -10px;
+    width: 100%;
+    z-index: 100000;
+}
