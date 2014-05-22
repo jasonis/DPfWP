@@ -56,3 +56,16 @@ class Page():
         self.__footer = '''
     </body>
 </html>'''
+
+    def header(self):
+        return self.__header
+
+    def form(self):
+        return self.__form
+
+    def template(self,obj):
+        template = self.__template.format(**locals())
+        return template
+
+    def footer(self):
+        return self.__footer
