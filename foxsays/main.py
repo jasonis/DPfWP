@@ -26,6 +26,11 @@ class MainHandler(webapp2.RequestHandler):
             self.response.write(page.template(animals[animal]))
         self.response.write(page.footer())
 
+class abstract_animal(object):
+    def __init__(self):
+        self._phy = 'Chordata'
+        self._say = ''
+
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
 ], debug=True)
