@@ -18,6 +18,14 @@ class MainHandler(webapp2.RequestHandler):
 
         animals = [dog, horse, raccoon]
 
+        self.response.write(page.header())
+        self.response.write(page.form())
+        if self.request.GET:
+            animal = (int(self.request.GET['animal']))-1
+            print animal
+            self.response.write(page.template(animals[animal]))
+        self.response.write(page.footer())
+
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
 ], debug=True)
