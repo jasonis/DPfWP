@@ -10,6 +10,9 @@ class MainHandler(webapp2.RequestHandler):
         dog = Canis()
         dog.name = 'Yorkshire Terrier'
 
+        horse = Equus()
+        horse.name = 'Horse'
+
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
 ], debug=True)
