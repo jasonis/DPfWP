@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="163" column="26" selection-start="3667" selection-end="3667" vertical-scroll-proportion="0.94584835" vertical-offset="1921" max-vertical-offset="2610">
+            <state line="163" column="26" selection-start="3667" selection-end="3667" vertical-scroll-proportion="0.0" vertical-offset="961" max-vertical-offset="2610">
               <folding>
                 <element signature="e#1#15#0" expanded="true" />
               </folding>
@@ -37,12 +37,17 @@
       <file leaf-file-name="page.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="4" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0" vertical-offset="586" max-vertical-offset="1140">
-              <folding>
-                <marker date="1400724306000" expanded="true" signature="13:2102" placeholder="..." />
-                <marker date="1400724306000" expanded="true" signature="1866:1895" placeholder="..." />
-                <marker date="1400724306000" expanded="true" signature="2073:2102" placeholder="..." />
-              </folding>
+            <state line="59" column="4" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="1" selection-start="82" selection-end="82" vertical-scroll-proportion="0.11342155" vertical-offset="0" max-vertical-offset="529">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,6 +64,7 @@
       <list>
         <option value="$PROJECT_DIR$/page.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -112,6 +118,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foxsays" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foxsays" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -138,7 +158,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="23" y="28" width="1322" height="651" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -176,23 +196,26 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/page.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="4" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0" vertical-offset="586" max-vertical-offset="1140">
+        <state line="163" column="26" selection-start="3667" selection-end="3667" vertical-scroll-proportion="0.0" vertical-offset="961" max-vertical-offset="2610">
           <folding>
-            <marker date="1400724306000" expanded="true" signature="13:2102" placeholder="..." />
-            <marker date="1400724306000" expanded="true" signature="1866:1895" placeholder="..." />
-            <marker date="1400724306000" expanded="true" signature="2073:2102" placeholder="..." />
+            <element signature="e#1#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="26" selection-start="3667" selection-end="3667" vertical-scroll-proportion="0.94584835" vertical-offset="1921" max-vertical-offset="2610">
-          <folding>
-            <element signature="e#1#15#0" expanded="true" />
-          </folding>
+        <state line="59" column="4" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="1" selection-start="82" selection-end="82" vertical-scroll-proportion="0.11342155" vertical-offset="0" max-vertical-offset="529">
+          <folding />
         </state>
       </provider>
     </entry>
