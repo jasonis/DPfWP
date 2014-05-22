@@ -91,6 +91,30 @@ class Procyonidae(Mammalia):
     def order(self):
         return self._order
 
+# --------- Dog Object ---------
+class Canidae(Carnivora):
+    def __init__(self):
+        Carnivora.__init__(self)
+        self._fam = 'Canidae'
+
+    @property
+    def fam(self):
+        return self._fam
+
+class Canis(Canidae):
+    def __init__(self):
+        Canidae.__init__(self)
+        self._gen = 'Canis'
+        self._url = ''
+        self._avg_life = '12.8 years'
+        self._hab = 'In your home'
+        self._geo = 'Worldwide'
+        self._say = 'Woof'
+
+    @property
+    def gen(self):
+        return self._gen
+
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
 ], debug=True)
