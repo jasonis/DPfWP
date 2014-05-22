@@ -55,6 +55,15 @@ class abstract_animal(object):
     def say(self):
         return self._say
 
+class Mammalia(abstract_animal):
+    def __init__(self):
+        abstract_animal.__init__(self)
+        self._class = 'Mammalia'
+
+    #Getter for Class
+    def classes(self):
+        return self._class
+
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
 ], debug=True)
