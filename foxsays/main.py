@@ -115,6 +115,30 @@ class Canis(Canidae):
     def gen(self):
         return self._gen
 
+# --------- Horse Object ---------
+class Equidae(Perissodactlya):
+    def __init__(self):
+        Perissodactlya.__init__(self)
+        self._fam = 'Equidae'
+
+    @property
+    def fam(self):
+        return self._fam
+
+class Equus(Equidae):
+    def __init__(self):
+        Equidae.__init__(self)
+        self._gen = 'Equus'
+        self._url = ''
+        self._avg_life = '28 years'
+        self._hab = 'Farms and Natural Prairies'
+        self._geo = 'Non-arctic regions worldwide'
+        self._say = 'Neigh'
+
+    @property
+    def gen(self):
+        return self._genus
+
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
 ], debug=True)
