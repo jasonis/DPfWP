@@ -73,6 +73,15 @@ class Carnivora(Mammalia):
     def order(self):
         return self._order
 
+class Perissodactlya(Mammalia):
+    def __init__(self):
+        Mammalia.__init__(self)
+        self._order = 'Perissodactlya'
+
+    @property
+    def order(self):
+        return self._order
+
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
 ], debug=True)
