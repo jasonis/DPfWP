@@ -48,3 +48,18 @@ form {
     line-height: 5px;
     color: #ececec;
 }
+
+a {
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    color: #495d63;
+    font-size: 30px;
+}
+
+form a:hover {
+    color: #ececec;
+}
+
+form a:active {
+    color: #ffffff;
+}
