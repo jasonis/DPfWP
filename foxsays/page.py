@@ -26,3 +26,33 @@ class Page():
             <a href="/?animal=2">Horse</a>
             <a href="/?animal=3">Raccoon</a>
         </form>'''
+
+        self.__template = '''
+        <div id="animal_area">
+            <h2>{obj.name}</h2>
+            <div id="animal_info">
+                <h2>Phylum:</h2>
+                <p>{obj.phy}</p>
+                <h2>Class:</h2>
+                <p>{obj._class}</p>
+                <h2>Order:</h2>
+                <p>{obj.order}</p>
+                <h2>Family:</h2>
+                <p>{obj._fam}</p>
+                <h2>Genus:</h2>
+                <p>{obj._gen}</p>
+                <h2>Average Lifespan:</h2>
+                <p>{obj.avg_life}</p>
+                <h2>Habitat:</h2>
+                <p>{obj.hab}</p>
+                <h2>Geolocation:</h2>
+                <p>{obj.geo}</p>
+            </div>
+            <div id="animal_pic">
+                <img src="{obj.url}" width=500 />
+            </div>
+        </div>'''
+
+        self.__footer = '''
+    </body>
+</html>'''
