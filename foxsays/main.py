@@ -35,7 +35,7 @@ class MainHandler(webapp2.RequestHandler):
 class abstract_animal(object):   #superclass
     def __init__(self):
         self._phy = 'Chordata'
-        self._say = ''
+        self._say = 'RAWR'
 
     #getters
     @property
@@ -62,6 +62,7 @@ class abstract_animal(object):   #superclass
     def say(self):
         return self._say
 
+# animal orders
 class Mammalia(abstract_animal):
     def __init__(self):
         abstract_animal.__init__(self)
@@ -76,6 +77,7 @@ class Carnivora(Mammalia):
         Mammalia.__init__(self)
         self._order = 'Carnivora'
 
+    #Getter for Class
     @property
     def order(self):
         return self._order
@@ -85,6 +87,7 @@ class Perissodactlya(Mammalia):
         Mammalia.__init__(self)
         self._order = 'Perissodactlya'
 
+    #Getter for Class
     @property
     def order(self):
         return self._order
@@ -94,6 +97,7 @@ class Procyonidae(Mammalia):
         Mammalia.__init__(self)
         self._order = 'Procyonidae'
 
+    #Getter for Class
     @property
     def order(self):
         return self._order
@@ -104,6 +108,7 @@ class Canidae(Carnivora):
         Carnivora.__init__(self)
         self._fam = 'Canidae'
 
+    #Getter
     @property
     def fam(self):
         return self._fam
@@ -118,6 +123,7 @@ class Canis(Canidae):
         self._geo = 'Worldwide'
         self._say = 'Woof'
 
+    #Getter
     @property
     def gen(self):
         return self._gen
@@ -128,6 +134,7 @@ class Equidae(Perissodactlya):
         Perissodactlya.__init__(self)
         self._fam = 'Equidae'
 
+    #Getter
     @property
     def fam(self):
         return self._fam
@@ -142,6 +149,7 @@ class Equus(Equidae):
         self._geo = 'Non-arctic regions worldwide'
         self._say = 'Neigh'
 
+    #Getter
     @property
     def gen(self):
         return self._genus
@@ -152,6 +160,7 @@ class Procyonidae(Carnivora):
         Carnivora.__init__(self)
         self._fam = 'Procyonidae'
 
+    #Getter
     @property
     def fam(self):
         return self._fam
@@ -166,6 +175,7 @@ class Procyon(Procyonidae):
         self._geo = 'Native to N. America and now also northern Europe'
         self._say = 'Chitter Chitter'
 
+    #Getter
     @property
     def gen(self):
         return self._genus
