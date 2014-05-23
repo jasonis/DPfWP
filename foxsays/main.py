@@ -65,7 +65,7 @@ class abstract_animal(object):   #superclass
 # animal orders
 class Mammalia(abstract_animal):
     def __init__(self):
-        abstract_animal.__init__(self)
+        abstract_animal.__init__(self)#initializes and inherits info from abstract_animal
         self._class = 'Mammalia'
 
     #Getter for Class
@@ -74,7 +74,7 @@ class Mammalia(abstract_animal):
 
 class Carnivora(Mammalia):
     def __init__(self):
-        Mammalia.__init__(self)
+        Mammalia.__init__(self)#initializes and inherits info from Mammalia
         self._order = 'Carnivora'
 
     #Getter for Class
@@ -84,7 +84,7 @@ class Carnivora(Mammalia):
 
 class Perissodactlya(Mammalia):
     def __init__(self):
-        Mammalia.__init__(self)
+        Mammalia.__init__(self)#initializes and inherits info from Mammalia
         self._order = 'Perissodactlya'
 
     #Getter for Class
@@ -94,7 +94,7 @@ class Perissodactlya(Mammalia):
 
 class Procyonidae(Mammalia):
     def __init__(self):
-        Mammalia.__init__(self)
+        Mammalia.__init__(self)#initializes and inherits info from Mammalia
         self._order = 'Procyonidae'
 
     #Getter for Class
@@ -105,7 +105,7 @@ class Procyonidae(Mammalia):
 # --------- Dog Object ---------
 class Canidae(Carnivora):
     def __init__(self):
-        Carnivora.__init__(self)
+        Carnivora.__init__(self)#initializes and inherits info from Carnivora
         self._fam = 'Canidae'
 
     #Getter
@@ -115,7 +115,7 @@ class Canidae(Carnivora):
 
 class Canis(Canidae):
     def __init__(self):
-        Canidae.__init__(self)
+        Canidae.__init__(self)#initializes and inherits info from Canidae
         self._gen = 'Canis'
         self._url = 'images/dog.jpg'
         self._avg_life = '12.8 years'
@@ -131,7 +131,7 @@ class Canis(Canidae):
 # --------- Horse Object ---------
 class Equidae(Perissodactlya):
     def __init__(self):
-        Perissodactlya.__init__(self)
+        Perissodactlya.__init__(self)#initializes and inherits info from Perissodactlya
         self._fam = 'Equidae'
 
     #Getter
@@ -141,7 +141,7 @@ class Equidae(Perissodactlya):
 
 class Equus(Equidae):
     def __init__(self):
-        Equidae.__init__(self)
+        Equidae.__init__(self)#initializes and inherits info from Equidae
         self._gen = 'Equus'
         self._url = 'images/horse.jpg'
         self._avg_life = '28 years'
@@ -157,7 +157,7 @@ class Equus(Equidae):
 # --------- Racoon Object ---------
 class Procyonidae(Carnivora):
     def __init__(self):
-        Carnivora.__init__(self)
+        Carnivora.__init__(self)#initializes and inherits info from Carnivora
         self._fam = 'Procyonidae'
 
     #Getter
@@ -167,7 +167,7 @@ class Procyonidae(Carnivora):
 
 class Procyon(Procyonidae):
     def __init__(self):
-        Procyonidae.__init__(self)
+        Procyonidae.__init__(self)#initializes and inherits info from Procyonidae
         self._gen = 'Procyonidae'
         self._url = 'images/raccoon.jpg'
         self._avg_life = '2-3 years'
