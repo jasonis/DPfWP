@@ -1,3 +1,10 @@
+"""
+Jason Slocum
+5.22.2014
+DPW
+What Does the Fox Say?
+"""
+
 class Page():
     def __init__(self):
         self.__header = '''<!DOCTYPE HTML>

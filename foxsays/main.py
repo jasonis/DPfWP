@@ -1,19 +1,24 @@
-
+"""
+Jason Slocum
+5.22.2014
+DPW
+What Does the Fox Say?
+"""
 import webapp2
 
 from page import Page
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        page = Page()
+        page = Page()# Instantiate Page()
 
-        dog = Canis()
+        dog = Canis()# creating instance of dog
         dog.name = 'Yorkshire Terrier'
 
-        horse = Equus()
+        horse = Equus()#creating an instance of horse
         horse.name = 'Horse'
 
-        raccoon = Procyon()
+        raccoon = Procyon()#creating an instance of raccoon
         raccoon.name = 'Raccoon'
 
         animals = [dog, horse, raccoon]
