@@ -7,6 +7,7 @@ What Does the Fox Say?
 
 class Page():
     def __init__(self):
+        #creating the html for the page
         self.__header = '''<!DOCTYPE HTML>
 <html>
     <head>
@@ -23,6 +24,7 @@ class Page():
     </header>
     <body>'''
 
+        #creating the html for the form
         self.__form = '''
         <div>
             <p class='cta'>Search for an animal to find out more about it&excl;</p>
@@ -34,6 +36,7 @@ class Page():
             <a href="/?animal=3">Raccoon</a>
         </form>'''
 
+        #creating the template to display the info when an animal is selected
         self.__template = '''
         <div id="animal_area">
             <h2>{obj.name}</h2>
@@ -60,19 +63,20 @@ class Page():
             </div>
         </div>'''
 
+        #creating the footer
         self.__footer = '''
     </body>
 </html>'''
 
     def header(self):
-        return self.__header
+        return self.__header#returns the info for thte header
 
     def form(self):
-        return self.__form
+        return self.__form#returns the info for the form
 
     def template(self,obj):
         template = self.__template.format(**locals())
-        return template
+        return template#returns the info for the template and populates it with the requested animals info
 
     def footer(self):
-        return self.__footer
+        return self.__footer#returns the info for the footer
