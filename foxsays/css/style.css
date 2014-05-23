@@ -1,3 +1,10 @@
+"""
+Jason Slocum
+5.22.2014
+DPW
+What Does the Fox Say?
+"""
+
 body {
     background-color: #2e2e2e;
     color: #ececec;
@@ -42,11 +49,20 @@ form {
     font-size: 35px;
 }
 
+#cta {
+    margin-top: 120px;
+}
+
+#cta p {
+    line-height: 15px;
+}
+
 .cta {
+    text-align: center;
     font: 'Helevetica Neue', sans-serif;
     font-size: 35px;
-    line-height: 5px;
-    color: #ececec;
+    color: #2e2e2e;
+    width: 100%;
 }
 
 a {
@@ -67,14 +83,21 @@ form a:active {
 #animal_area {
     background-color: #ececec;
     color: #2e2e2e;
-    width: 40%;
-    box-shadow: 2px 2px 2px #2e2e2e;
+    width: 60%;
+    box-shadow: 0px 2px 2px #2e2e2e;
     margin: 0 auto;
     border-radius: 5px;
+    padding: 10px 0 10px 0;
+}
+
+#animal_area h2 p {
+    margin-top: 50px;
+    margin-left: 75px;
 }
 
 #animal_area h1, h2, h3, p {
     text-align: center;
+    width: 30%;
 }
 
 #animal_area p {
@@ -82,5 +105,6 @@ form a:active {
 }
 
 img {
-    margin: 50px 35px;
+    margin: -785px 40px;
+    float: right;
 }

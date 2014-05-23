@@ -26,7 +26,7 @@ class Page():
 
         #creating the html for the form
         self.__form = '''
-        <div>
+        <div id="cta">
             <p class='cta'>Search for an animal to find out more about it&excl;</p>
             <p class='cta'>Here's some info to help get you started&excl;</p>
         </div>
@@ -57,10 +57,11 @@ class Page():
                 <p>{obj.hab}</p>
                 <h2>Geolocation:</h2>
                 <p>{obj.geo}</p>
-            </div>
-            <div id="animal_pic">
                 <img src="{obj.url}" width=500 />
+                <h2>What Does the {obj.name} Say?</h2>
+                <p>{obj._say}</p>
             </div>
+
         </div>'''
 
         #creating the footer
