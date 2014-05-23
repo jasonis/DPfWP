@@ -12,17 +12,18 @@ class MainHandler(webapp2.RequestHandler):
     def get(self):
         page = Page()# Instantiate Page()
 
-        dog = Canis()# creating instance of dog
+        dog = Canis()# creating instance of dog sub class
         dog.name = 'Yorkshire Terrier'
 
-        horse = Equus()#creating an instance of horse
+        horse = Equus()#creating an instance of horse sub class
         horse.name = 'Horse'
 
-        raccoon = Procyon()#creating an instance of raccoon
+        raccoon = Procyon()#creating an instance of raccoon sub class
         raccoon.name = 'Raccoon'
 
-        animals = [dog, horse, raccoon]
+        animals = [dog, horse, raccoon]#array of animals
 
+        #displays the html page and displays the appropriate info for the requested animal
         self.response.write(page.header())
         self.response.write(page.form())
         if self.request.GET:
@@ -31,11 +32,12 @@ class MainHandler(webapp2.RequestHandler):
             self.response.write(page.template(animals[animal]))
         self.response.write(page.footer())
 
-class abstract_animal(object):
+class abstract_animal(object):   #superclass
     def __init__(self):
         self._phy = 'Chordata'
         self._say = ''
 
+    #getters
     @property
     def phy(self):
         return self._phy
