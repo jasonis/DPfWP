@@ -31,6 +31,11 @@ class EstateView(object):
         self.__edos = []
         self.__content = '<br />'
 
+    def update(self):
+        for do in self.__edos:
+            self.__content += "<div id='maincontent'>"
+            self.__content += "</div>"
+
     @property
     def content(self):
         return self.__content
