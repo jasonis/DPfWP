@@ -20,6 +20,10 @@ class EstateView(object):
 
 class EstateModel(object):
     def __init__(self):
+        self.__url = "http://www.zillow.com/webservice/GetDemographics.htm?zws-id=X1-ZWz1dtxmglnsi3_4aijl&state="
+        self.__city = ""
+        self.__state = ""
+        self.__xmldoc = ""
 
 class EstateData(object):
     def __init__(self):
