@@ -12,7 +12,10 @@ class Page(object):
 <html>
     <head>
         <title>Belong</title>
-
+        <link href="css/style.css" rel="stylesheet" type"text/css" />
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
     </head>
     <header>
         <ul>
