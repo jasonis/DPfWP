@@ -64,3 +64,11 @@ form input {
 form input:hover {
     opacity: .7;
 }
+
+#cta {
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-size: 33px;
+    margin-top: 0px;
+    color: #ececec;
+}
