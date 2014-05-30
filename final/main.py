@@ -10,7 +10,18 @@ from xml.dom import minidom
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        self.response.write('Hello world!')
+
+
+class EstateView(object):
+    def __init__(self):
+
+class EstateModel(object):
+    def __init__(self):
+
+class EstateData(object):
+    def __init__(self):
+
+
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
