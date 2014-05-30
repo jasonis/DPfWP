@@ -48,3 +48,19 @@ ul li a {
     border-right: solid 1px #ffffff;
     color: #ececec;
 }
+
+form {
+    margin: 80px 0 0 33%;
+}
+
+form input {
+    padding: 0 5px 0 5px;
+    margin: 0 5px 0 5px;
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+}
+
+form input:hover {
+    opacity: .7;
+}
