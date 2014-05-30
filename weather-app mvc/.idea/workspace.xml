@@ -26,13 +26,10 @@
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="20" selection-start="2392" selection-end="2392" vertical-scroll-proportion="-0.5566038" vertical-offset="1284" max-vertical-offset="1920">
+            <state line="76" column="20" selection-start="2392" selection-end="2392" vertical-scroll-proportion="1.7924528" vertical-offset="0" max-vertical-offset="2130">
               <folding>
                 <element signature="e#1#15#0" expanded="true" />
                 <element signature="e#2935#3221#0" expanded="false" />
-                <marker date="1401154091000" expanded="false" signature="157:711" placeholder="..." />
-                <marker date="1401154091000" expanded="true" signature="176:711" placeholder="..." />
-                <marker date="1401154091000" expanded="true" signature="908:1028" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -293,9 +290,6 @@
           <folding>
             <element signature="e#1#15#0" expanded="true" />
             <element signature="e#2935#3221#0" expanded="false" />
-            <marker date="1401154091000" expanded="false" signature="157:711" placeholder="..." />
-            <marker date="1401154091000" expanded="true" signature="176:711" placeholder="..." />
-            <marker date="1401154091000" expanded="true" signature="908:1028" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -306,9 +300,6 @@
           <folding>
             <element signature="e#1#15#0" expanded="true" />
             <element signature="e#2935#3221#0" expanded="false" />
-            <marker date="1401154091000" expanded="false" signature="157:711" placeholder="..." />
-            <marker date="1401154091000" expanded="true" signature="176:711" placeholder="..." />
-            <marker date="1401154091000" expanded="true" signature="908:1028" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -319,9 +310,6 @@
           <folding>
             <element signature="e#1#15#0" expanded="true" />
             <element signature="e#2935#3221#0" expanded="false" />
-            <marker date="1401154091000" expanded="false" signature="157:711" placeholder="..." />
-            <marker date="1401154091000" expanded="true" signature="176:711" placeholder="..." />
-            <marker date="1401154091000" expanded="true" signature="908:1028" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -335,13 +323,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="20" selection-start="2392" selection-end="2392" vertical-scroll-proportion="-0.5566038" vertical-offset="1284" max-vertical-offset="1920">
+        <state line="76" column="20" selection-start="2392" selection-end="2392" vertical-scroll-proportion="1.7924528" vertical-offset="0" max-vertical-offset="2130">
           <folding>
             <element signature="e#1#15#0" expanded="true" />
             <element signature="e#2935#3221#0" expanded="false" />
-            <marker date="1401154091000" expanded="false" signature="157:711" placeholder="..." />
-            <marker date="1401154091000" expanded="true" signature="176:711" placeholder="..." />
-            <marker date="1401154091000" expanded="true" signature="908:1028" placeholder="..." />
           </folding>
         </state>
       </provider>
