@@ -14,6 +14,17 @@ class MainHandler(webapp2.RequestHandler):
         p = FormPage()
         p.inputs = [['city', 'text', 'City'], ['state', 'text', 'State'], ['Submit', 'submit']]
 
+        if self.request.GET:
+            em = EstateModel()
+            em.city = self.request.GET['city']
+            em.state = self.request.GET['state']
+            em.callApi()
+
+            ev = EstateView()
+            ev.edos = em.dos
+            p._body = ev.content
+        self.response.write(p.print_out())
+
 
 class EstateView(object):
     def __init__(self):
