@@ -30,6 +30,22 @@ class EstateModel(object):
         opener = urllib2.build_opener()
         result = opener.open(request)
 
+    @property
+    def state(self):
+        pass
+
+    @state.setter
+    def state(self, s):
+        self.__state = s
+
+    @property
+    def city(self):
+        pass
+
+    @city.setter
+    def city(self, c):
+        self.__city = c
+
 class EstateData(object):
     def __init__(self):
 
