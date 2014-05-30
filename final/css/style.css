@@ -93,3 +93,17 @@ div.box h2 h3 {
 div.box p {
     color: #333333;
 }
+
+ul li a {
+    background-color: #222222;
+    -webkit-transition: 0.7s;
+     -moz-transition: 0.7s;
+     -o-transition: 0.7s;
+     -ms-transition: 0.7s;
+     transition: 0.7;
+}
+
+ul li a:hover {
+    text-shadow: -1px 1px 7px #ececec, 1px -1px 7px #ececec;
+    color: #114e7d;
+}
