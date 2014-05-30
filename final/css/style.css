@@ -9,3 +9,14 @@ html {
     background-image: url('/images/bg2.jpg');
     width: 100%;
 }
+
+header {
+    background-color: #222222;
+    box-shadow: 0 2px 2px #222;
+    position: fixed;
+    top: 0px;
+    margin-left: -10px;
+    width: 100%;
+    z-index: 100000;
+    height: 50px;
+}
