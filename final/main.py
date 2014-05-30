@@ -58,6 +58,21 @@ class EstateModel(object):
 
         list = self.__xmldoc.getElementsByTagName('response')
         self._dos = []
+        for tag in list:
+            do = EstateData()
+            do.value = tag.getElementsByTagName('value')[2].firstChild.nodeValue
+            do.value2 = tag.getElementsByTagName('value')[3].firstChild.nodeValue
+            do.value5 = tag.getElementsByTagName('value')[6].firstChild.nodeValue
+            do.value6 = tag.getElementsByTagName('value')[7].firstChild.nodeValue
+            do.value7 = tag.getElementsByTagName('value')[8].firstChild.nodeValue
+            do.value8 = tag.getElementsByTagName('value')[9].firstChild.nodeValue
+            do.value9 = tag.getElementsByTagName('value')[10].firstChild.nodeValue
+            do.value10 = tag.getElementsByTagName('value')[11].firstChild.nodeValue
+            do.value3 = tag.getElementsByTagName('value')[4].firstChild.nodeValue
+            do.value4 = tag.getElementsByTagName('value')[5].firstChild.nodeValue
+            do.forSale = tag.getElementsByTagName('forSale')[0].firstChild.nodeValue
+            do.location = tag.getElementsByTagName('city')[0].firstChild.nodeValue
+            self._dos.append(do)
 
     @property
     def dos(self):
