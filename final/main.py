@@ -17,6 +17,8 @@ class MainHandler(webapp2.RequestHandler):
 
 class EstateView(object):
     def __init__(self):
+        self.__edos = []
+        self.__content = '<br />'
 
 class EstateModel(object):
     def __init__(self):
