@@ -20,6 +20,19 @@ class EstateView(object):
         self.__edos = []
         self.__content = '<br />'
 
+    @property
+    def content(self):
+        return self.__content
+
+    @property
+    def edos(self):
+        pass
+
+    @edos.setter
+    def edos(self, arr):
+        self.__edos = arr
+        self.update()
+
 class EstateModel(object):
     def __init__(self):
         self.__url = "http://www.zillow.com/webservice/GetDemographics.htm?zws-id=X1-ZWz1dtxmglnsi3_4aijl&state="
