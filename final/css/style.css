@@ -72,3 +72,24 @@ form input:hover {
     margin-top: 0px;
     color: #ececec;
 }
+
+div.box {
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    background-color: #ffffff;
+    opacity: .7;
+    font-weight: bold;
+    width: 40%;
+    margin: 0px 0 0 29% /*400px*/;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    box-shadow: 0 0 5px #2e2e2e;
+}
+
+div.box h2 h3 {
+    color: #222222;
+}
+
+div.box p {
+    color: #333333;
+}
