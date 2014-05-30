@@ -25,6 +25,11 @@ class EstateModel(object):
         self.__state = ""
         self.__xmldoc = ""
 
+    def callApi(self):
+        request = urllib2.Request(self.__url+self.__state+"&city="+self.__city)
+        opener = urllib2.build_opener()
+        result = opener.open(request)
+
 class EstateData(object):
     def __init__(self):
 
