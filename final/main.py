@@ -96,6 +96,18 @@ class EstateModel(object):
 
 class EstateData(object):
     def __init__(self):
+        self.value = ''
+        self.value2 = ''
+        self.value3 = ''
+        self.value4 = ''
+        self.forSale = ''
+        self.value5 = ''
+        self.value6 = ''
+        self.value7 = ''
+        self.value8 = ''
+        self.value9 = ''
+        self.value10 = ''
+        self.location = ''
 
 class FormPage(Page):
     def __init__(self):
