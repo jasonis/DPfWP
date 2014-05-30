@@ -34,7 +34,27 @@ class EstateView(object):
     def update(self):
         for do in self.__edos:
             self.__content += "<div id='maincontent'>"
+            self.__content += "<h2 id='cta'>" + "Enter a location to find out where you belong&excl;" + "</h2>"
+            self.__content += "<div class='box'>"
+            self.__content += "<h2>" + "Affordability of Homes in " + do.location + "</h2>"
+            self.__content += "<h3>" + "Single Family Homes" + "</h3>"
+            self.__content += "<p>" + "The average single family home is valued at: $" + do.value + "<br />"
+            self.__content += "While the national average for a comparable home is: $" + do.value2 + "</p>"
+            self.__content += "<h3>" + "Two Bedroom Homes" + "</h3>"
+            self.__content += "<p>" + "The average two bedroom home is valued at: $" + do.value5 + "<br />"
+            self.__content += "While the national average for a comparable home is: $" + do.value6 + "</p>"
+            self.__content += "<h3>" + "Three Bedroom Homes" + "</h3>"
+            self.__content += "<p>" + "The average three bedroom home is valued at: $" + do.value7 + "<br />"
+            self.__content += "While the national average for a comparable home is: $" + do.value8 + "</p>"
+            self.__content += "<h3>" + "Four Bedroom Homes" + "</h3>"
+            self.__content += "<p>" + "The average four bedroom home is valued at: $" + do.value9 + "<br />"
+            self.__content += "While the national average for a comparable home is: $" + do.value10 + "</p>"
+            self.__content += "<h3>" + "Condos" + "</h3>"
+            self.__content += "<p>" + "The average condo is valued at: $" + do.value3 + "<br />"
+            self.__content += "While the national average for a comparable condo is: $" + do.value4 + "</p>"
+            self.__content += "<a href='" + do.forSale + "'>Check Out Current Home Listings&excl;</a>" + "</div>"
             self.__content += "</div>"
+
 
     @property
     def content(self):
@@ -60,6 +80,8 @@ class EstateModel(object):
         request = urllib2.Request(self.__url+self.__state+"&city="+self.__city)
         opener = urllib2.build_opener()
         result = opener.open(request)
+
+        self.__xmldoc = minidom.parse(result)
 
         list = self.__xmldoc.getElementsByTagName('response')
         self._dos = []
