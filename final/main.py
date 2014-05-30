@@ -11,6 +11,7 @@ from xml.dom import minidom
 class MainHandler(webapp2.RequestHandler):
     def get(self):
         p = FormPage()
+        p.inputs = [['city', 'text', 'City'], ['state', 'text', 'State'], ['Submit', 'submit']]
 
 
 class EstateView(object):
