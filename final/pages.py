@@ -12,7 +12,7 @@ class Page(object):
 <html>
     <head>
         <title>Belong</title>
-    
+
     </head>
     <header>
         <ul>

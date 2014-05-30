@@ -32,6 +32,14 @@ class FormPage(Page):
         self.__inputs = []
         self._form_inputs = ''
 
+    @property
+    def inputs(self):
+        pass
+
+    @inputs.setter
+    def inputs(self, arr):
+        self.__inputs = arr
+
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
 ], debug=True)
