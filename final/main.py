@@ -30,6 +30,13 @@ class EstateModel(object):
         opener = urllib2.build_opener()
         result = opener.open(request)
 
+        list = self.__xmldoc.getElementsByTagName('response')
+        self._dos = []
+
+    @property
+    def dos(self):
+        return self._dos
+
     @property
     def state(self):
         pass
