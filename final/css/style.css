@@ -20,3 +20,31 @@ header {
     z-index: 100000;
     height: 50px;
 }
+
+ul li {
+    display: inline-block;
+    margin: -15px 0 0 17.708333%/*255px*/;
+    list-style-type: none;
+}
+
+ul li a {
+    color: #ececec;
+    list-style-type: none;
+    padding: 0 5px 0 5px;
+    text-decoration: none;
+    margin-top: -20px;
+}
+
+#logo {
+    color: #114e7d;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    padding: 0;
+    opacity: 100;
+}
+
+.logolink {
+    border-left: solid 1px #ffffff;
+    border-right: solid 1px #ffffff;
+    color: #ececec;
+}
