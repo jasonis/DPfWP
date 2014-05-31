@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="130" selection-start="4615" selection-end="4615" vertical-scroll-proportion="1.8645252" vertical-offset="0" max-vertical-offset="2700">
+            <state line="88" column="130" selection-start="4615" selection-end="4615" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2700">
               <folding>
                 <element signature="e#45#59#0" expanded="true" />
               </folding>
@@ -43,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="16" selection-start="1230" selection-end="1230" vertical-scroll-proportion="-47.4" vertical-offset="0" max-vertical-offset="1710">
+            <state line="120" column="59" selection-start="1996" selection-end="1996" vertical-scroll-proportion="0.8480463" vertical-offset="1214" max-vertical-offset="1920">
               <folding />
             </state>
           </provider>
@@ -62,9 +62,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/pages.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -317,13 +317,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="16" selection-start="1230" selection-end="1230" vertical-scroll-proportion="-47.4" vertical-offset="0" max-vertical-offset="1710">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="100" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
@@ -333,10 +326,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="130" selection-start="4615" selection-end="4615" vertical-scroll-proportion="1.8645252" vertical-offset="0" max-vertical-offset="2700">
+        <state line="88" column="130" selection-start="4615" selection-end="4615" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2700">
           <folding>
             <element signature="e#45#59#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="59" selection-start="1996" selection-end="1996" vertical-scroll-proportion="0.8480463" vertical-offset="1214" max-vertical-offset="1920">
+          <folding />
         </state>
       </provider>
     </entry>

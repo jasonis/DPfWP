@@ -94,6 +94,20 @@ div.box p {
     color: #333333;
 }
 
+.box a {
+    color: #114e7d;
+    -webkit-transition: 0.7s;
+     -moz-transition: 0.7s;
+     -o-transition: 0.7s;
+     -ms-transition: 0.7s;
+     transition: 0.7;
+}
+
+.box a:hover {
+    text-shadow: -1px 1px 7px #000000, 1px -1px 7px #000000;
+    color: #ffffff;
+}
+
 ul li a {
     background-color: #222222;
     -webkit-transition: 0.7s;
