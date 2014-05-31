@@ -4,7 +4,7 @@ Jason Slocum
 DPW
 Final API
 """
-
+#the class Page contains html for the page
 class Page(object):
     def __init__(self):
         self._head ="""
@@ -29,5 +29,5 @@ class Page(object):
         self._close ="""
     </body>
 </html>"""
-    def print_out(self):
+    def print_out(self):#this function returns the head, body and close of the html that was created
         return self._head + self._body + self._close

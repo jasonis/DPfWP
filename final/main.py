@@ -86,7 +86,7 @@ class EstateModel(object):
 
         self.__xmldoc = minidom.parse(result)#parsing the data
 
-        list = self.__xmldoc.getElementsByTagName('response')
+        list = self.__xmldoc.getElementsByTagName('response')#creates the variable 'list' and gets the tag 'response' from the xml
         self._dos = []#holds the info collected from the api
         for tag in list:
             do = EstateData()#calls the EstateData function
