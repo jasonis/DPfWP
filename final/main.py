@@ -6,32 +6,34 @@ Final API
 """
 import webapp2
 from pages import Page
-import urllib2
-from xml.dom import minidom
+import urllib2 #open url, request receive and open info obtained there
+from xml.dom import minidom#parse xml
 
 class MainHandler(webapp2.RequestHandler):
+    """controls the interaction between the model and the view"""
     def get(self):
         p = FormPage()
         p.inputs = [['city', 'text', 'City'], ['state', 'text', 'State'], ['Submit', 'submit']]
 
         if self.request.GET:
-            em = EstateModel()
-            em.city = self.request.GET['city']
-            em.state = self.request.GET['state']
-            em.callApi()
+            em = EstateModel()#creating the model
+            em.city = self.request.GET['city']#this sends the city that the user enters from the view to the model
+            em.state = self.request.GET['state']#this sends the state that the user enters from the view to the model
+            em.callApi()#calls the callAPI function
 
-            ev = EstateView()
-            ev.edos = em.dos
+            ev = EstateView()#creating the view
+            ev.edos = em.dos#takes data objects from EstateModel and gives them to the EstateView
             p._body = ev.content
         self.response.write(p.print_out())
 
 
 class EstateView(object):
+     ''' this class handles how the info is shown to the user'''
     def __init__(self):
         self.__edos = []
         self.__content = '<br />'
 
-    def update(self):
+    def update(self):#this function goes through the array self.__edos and updates the info
         for do in self.__edos:
             self.__content += "<div id='maincontent'>"
             self.__content += "<h2 id='cta'>" + "Enter a location to find out where you belong&excl;" + "</h2>"
@@ -70,23 +72,24 @@ class EstateView(object):
         self.update()
 
 class EstateModel(object):
-    def __init__(self):
+    '''this model will handle fetching parsing and sorting data from the Zillow api '''
+    def __init__(self):#this function gets the api and hold the users city and state info
         self.__url = "http://www.zillow.com/webservice/GetDemographics.htm?zws-id=X1-ZWz1dtxmglnsi3_4aijl&state="
         self.__city = ""
         self.__state = ""
         self.__xmldoc = ""
 
     def callApi(self):
-        request = urllib2.Request(self.__url+self.__state+"&city="+self.__city)
-        opener = urllib2.build_opener()
-        result = opener.open(request)
+        request = urllib2.Request(self.__url+self.__state+"&city="+self.__city)#requests and loads data from the api
+        opener = urllib2.build_opener()#use urllib2 to create an object to get the url
+        result = opener.open(request)#use the url to get a result - request info from the api
 
-        self.__xmldoc = minidom.parse(result)
+        self.__xmldoc = minidom.parse(result)#parsing the data
 
         list = self.__xmldoc.getElementsByTagName('response')
-        self._dos = []
+        self._dos = []#holds the info collected from the api
         for tag in list:
-            do = EstateData()
+            do = EstateData()#calls the EstateData function
             do.value = tag.getElementsByTagName('value')[2].firstChild.nodeValue
             do.value2 = tag.getElementsByTagName('value')[3].firstChild.nodeValue
             do.value5 = tag.getElementsByTagName('value')[6].firstChild.nodeValue
@@ -122,6 +125,7 @@ class EstateModel(object):
         self.__city = c
 
 class EstateData(object):
+    '''this data object holds the data fetched by the model and shown by the view '''
     def __init__(self):
         self.value = ''
         self.value2 = ''
@@ -136,7 +140,8 @@ class EstateData(object):
         self.value10 = ''
         self.location = ''
 
-class FormPage(Page):
+class FormPage(Page):#FormPage class, inherits from the Page class
+    """this page sets up the basic html"""
     def __init__(self):
         super(FormPage, self).__init__()#Page.__init__()
         self._form_open = '<form method="GET">'
