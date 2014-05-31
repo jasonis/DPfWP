@@ -13,7 +13,7 @@ class MainHandler(webapp2.RequestHandler):
     """controls the interaction between the model and the view"""
     def get(self):
         p = FormPage()#creating the page
-        p.inputs = [['city', 'text', 'City'], ['state', 'text', 'State'], ['Submit', 'submit']]
+        p.inputs = [['city', 'text', 'City'], ['state', 'text', 'State'], ['Submit', 'submit']]#creates the form inputs and contains their name, type and placeholder
 
         if self.request.GET:
             em = EstateModel()#creating the model
@@ -57,6 +57,7 @@ class EstateView(object):
             self.__content += "<a href='" + do.forSale + "'>Check Out Current Home Listings&excl;</a>" + "</div>"
             self.__content += "</div>"
 
+    #getters and setter that return the content and call the update function
     @property
     def content(self):
         return self.__content
@@ -73,7 +74,7 @@ class EstateView(object):
 class EstateModel(object):
     '''this model will handle fetching parsing and sorting data from the Zillow api '''
     def __init__(self):#this function gets the api and hold the users city and state info
-        self.__url = "http://www.zillow.com/webservice/GetDemographics.htm?zws-id=X1-ZWz1dtxmglnsi3_4aijl&state="
+        self.__url = "http://www.zillow.com/webservice/GetDemographics.htm?zws-id=X1-ZWz1dtxmglnsi3_4aijl&state="#api url with the key
         self.__city = ""
         self.__state = ""
         self.__xmldoc = ""
@@ -101,8 +102,9 @@ class EstateModel(object):
             do.value4 = tag.getElementsByTagName('value')[5].firstChild.nodeValue
             do.forSale = tag.getElementsByTagName('forSale')[0].firstChild.nodeValue
             do.location = tag.getElementsByTagName('city')[0].firstChild.nodeValue
-            self._dos.append(do)
+            self._dos.append(do)#adds all of the data objects to _dos
 
+    #getters and setters that return the city, state and objects
     @property
     def dos(self):
         return self._dos
