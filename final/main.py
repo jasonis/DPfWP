@@ -12,7 +12,7 @@ from xml.dom import minidom#parse xml
 class MainHandler(webapp2.RequestHandler):
     """controls the interaction between the model and the view"""
     def get(self):
-        p = FormPage()
+        p = FormPage()#creating the page
         p.inputs = [['city', 'text', 'City'], ['state', 'text', 'State'], ['Submit', 'submit']]
 
         if self.request.GET:
@@ -23,17 +23,17 @@ class MainHandler(webapp2.RequestHandler):
 
             ev = EstateView()#creating the view
             ev.edos = em.dos#takes data objects from EstateModel and gives them to the EstateView
-            p._body = ev.content
-        self.response.write(p.print_out())
+            p._body = ev.content#takes the content from the view and adds it to the body
+        self.response.write(p.print_out())#displays the form
 
 
 class EstateView(object):
-     ''' this class handles how the info is shown to the user'''
+    ''' this class handles how the info is shown to the user'''
     def __init__(self):
         self.__edos = []
         self.__content = '<br />'
 
-    def update(self):#this function goes through the array self.__edos and updates the info
+    def update(self):#this function goes through the array self.__edos and updates the info with the content from the api
         for do in self.__edos:
             self.__content += "<div id='maincontent'>"
             self.__content += "<h2 id='cta'>" + "Enter a location to find out where you belong&excl;" + "</h2>"
@@ -56,7 +56,6 @@ class EstateView(object):
             self.__content += "While the national average for a comparable condo is: $" + do.value4 + "</p>"
             self.__content += "<a href='" + do.forSale + "'>Check Out Current Home Listings&excl;</a>" + "</div>"
             self.__content += "</div>"
-
 
     @property
     def content(self):
@@ -149,22 +148,22 @@ class FormPage(Page):#FormPage class, inherits from the Page class
         self.__inputs = []
         self._form_inputs = ''
 
-    @property
+    @property#getter
     def inputs(self):
         pass
 
-    @inputs.setter
+    @inputs.setter#setter
     def inputs(self, arr):
         self.__inputs = arr
 
-        for item in arr:
+        for item in arr:#loops through the items in the array, if there is a third item it will be added otherwise it will close the tag
             self._form_inputs += '<input type="' + item[1] + '" name="' + item[0]
             try:
                 self._form_inputs += '" placeholder="' + item[2] + '" />'
             except:
                 self._form_inputs += '" />'
 
-    def print_out(self):
+    def print_out(self):#this function creates the html by returning the necessary attributes
         return self._head + self._form_open + self._form_inputs + self._form_close + self._body + self._close
 
 app = webapp2.WSGIApplication([
